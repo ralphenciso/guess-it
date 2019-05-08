@@ -1,0 +1,20 @@
+@import 'partials';
+
+// global styles
+body {
+  font-family: 'Raleway', Verdana, Geneva, Tahoma, sans-serif;
+
+  background: linear-gradient(to right, #002fe0, #2143d6, #0052d4);
+}
+
+#list {
+  max-width: 50%;
+  margin: auto;
+}
+
+.btn {
+  font-size: 2rem;
+  height: auto;
+  width: auto;
+  border-radius: 5px;
+}

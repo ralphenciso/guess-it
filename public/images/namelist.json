@@ -1,0 +1,112 @@
+[
+  {
+    "name": "Adolf Hitler",
+    "loc": "C:\\Users\\Ren\\Desktop\\Repositories\\guess-w\\public\\images\\who\\adolf_hitler.jpg",
+    "id": 0
+  },
+  {
+    "name": "Albert Einstein",
+    "loc": "C:\\Users\\Ren\\Desktop\\Repositories\\guess-w\\public\\images\\who\\albert_einstein.jpg",
+    "id": 1
+  },
+  {
+    "name": "Angel Locsin",
+    "loc": "C:\\Users\\Ren\\Desktop\\Repositories\\guess-w\\public\\images\\who\\angel_locsin.jpg",
+    "id": 2
+  },
+  {
+    "name": "Anne Curtis",
+    "loc": "C:\\Users\\Ren\\Desktop\\Repositories\\guess-w\\public\\images\\who\\anne_curtis.jpg",
+    "id": 3
+  },
+  {
+    "name": "Audrey Hepburn",
+    "loc": "C:\\Users\\Ren\\Desktop\\Repositories\\guess-w\\public\\images\\who\\audrey_hepburn.jpg",
+    "id": 4
+  },
+  {
+    "name": "Barack Obama",
+    "loc": "C:\\Users\\Ren\\Desktop\\Repositories\\guess-w\\public\\images\\who\\barack_obama.jpg",
+    "id": 5
+  },
+  {
+    "name": "Bill Gates",
+    "loc": "C:\\Users\\Ren\\Desktop\\Repositories\\guess-w\\public\\images\\who\\bill_gates.png",
+    "id": 6
+  },
+  {
+    "name": "Coco Martin",
+    "loc": "C:\\Users\\Ren\\Desktop\\Repositories\\guess-w\\public\\images\\who\\coco_martin.jpg",
+    "id": 7
+  },
+  {
+    "name": "Emma Watson",
+    "loc": "C:\\Users\\Ren\\Desktop\\Repositories\\guess-w\\public\\images\\who\\emma_watson.jpg",
+    "id": 8
+  },
+  {
+    "name": "Ferdinand Marcos",
+    "loc": "C:\\Users\\Ren\\Desktop\\Repositories\\guess-w\\public\\images\\who\\ferdinand_marcos.jpg",
+    "id": 9
+  },
+  {
+    "name": "Gloria Arroyo",
+    "loc": "C:\\Users\\Ren\\Desktop\\Repositories\\guess-w\\public\\images\\who\\gloria_arroyo.jpg",
+    "id": 10
+  },
+  {
+    "name": "John Lennon",
+    "loc": "C:\\Users\\Ren\\Desktop\\Repositories\\guess-w\\public\\images\\who\\john_lennon.jpg",
+    "id": 11
+  },
+  {
+    "name": "John Lloyd",
+    "loc": "C:\\Users\\Ren\\Desktop\\Repositories\\guess-w\\public\\images\\who\\john_lloyd.jpg",
+    "id": 12
+  },
+  {
+    "name": "Jose Rizal",
+    "loc": "C:\\Users\\Ren\\Desktop\\Repositories\\guess-w\\public\\images\\who\\jose_rizal.jpg",
+    "id": 13
+  },
+  {
+    "name": "Manny Pacquiao",
+    "loc": "C:\\Users\\Ren\\Desktop\\Repositories\\guess-w\\public\\images\\who\\manny_pacquiao.jpg",
+    "id": 14
+  },
+  {
+    "name": "Marilyn Monroe",
+    "loc": "C:\\Users\\Ren\\Desktop\\Repositories\\guess-w\\public\\images\\who\\marilyn_monroe.jpg",
+    "id": 15
+  },
+  {
+    "name": "Michael Jackson",
+    "loc": "C:\\Users\\Ren\\Desktop\\Repositories\\guess-w\\public\\images\\who\\michael_jackson.jpg",
+    "id": 16
+  },
+  {
+    "name": "Natalie Portman",
+    "loc": "C:\\Users\\Ren\\Desktop\\Repositories\\guess-w\\public\\images\\who\\natalie_portman.jpg",
+    "id": 17
+  },
+  {
+    "name": "Nora Aunor",
+    "loc": "C:\\Users\\Ren\\Desktop\\Repositories\\guess-w\\public\\images\\who\\nora_aunor.jpg",
+    "id": 18
+  },
+  {
+    "name": "Rodrigo Duterte",
+    "loc": "C:\\Users\\Ren\\Desktop\\Repositories\\guess-w\\public\\images\\who\\rodrigo_duterte.jpg",
+    "id": 19
+  },
+  {
+    "name": "Stephen Hawking",
+    "loc": "C:\\Users\\Ren\\Desktop\\Repositories\\guess-w\\public\\images\\who\\stephen_hawking.jpg",
+    "id": 20
+  },
+  {
+    "name": "Steve Jobs",
+    "loc": "C:\\Users\\Ren\\Desktop\\Repositories\\guess-w\\public\\images\\who\\steve_jobs.png",
+    "id": 21
+  }
+]

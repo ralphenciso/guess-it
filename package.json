@@ -1,0 +1,26 @@
+{
+  "name": "guess-w",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "babel": "npx babel ./public/js/src --out-dir ./public/js --presets ../../../node_modules/babel-preset-react",
+    "babelwatch": "npx babel --watch ./public/js/src --out-dir ./public/js --presets ../../../node_modules/babel-preset-react"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "serve-static": "^1.13.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-react-app": "^3.1.2"
+  }
+}
