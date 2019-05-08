@@ -32,8 +32,13 @@ function List(props) {
 ReactDOM.render(<List />, root);
 
 
-function whoHandler(){
-  alert('test')
+
+function whoHandler() {
+  let nameList =  
+    fetch('../getlist?length=10')
+      .then(response => response.text())
+      .then((data => console.log(data)))
+      .catch(err => console.error(err));
 }
 
 
