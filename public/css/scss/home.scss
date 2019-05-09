@@ -25,6 +25,12 @@ body {
   max-width: 500px;
 }
 
-#whocontainer img {
+
+#whocontainer div {
   border-radius: 10px;
+  overflow: hidden;
+}
+
+#whocontainer img {
+  flex: 1 0 auto;
 }

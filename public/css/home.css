@@ -4,6 +4,46 @@
   box-sizing: border-box;
 }
 
+.h0 {
+  height: 0%;
+}
+
+.h10 {
+  height: 10%;
+}
+
+.h20 {
+  height: 20%;
+}
+
+.h30 {
+  height: 30%;
+}
+
+.h40 {
+  height: 40%;
+}
+
+.h50 {
+  height: 50%;
+}
+
+.h60 {
+  height: 60%;
+}
+
+.h70 {
+  height: 70%;
+}
+
+.h80 {
+  height: 80%;
+}
+
+.h90 {
+  height: 90%;
+}
+
 .h100 {
   height: 100%;
 }
@@ -12,8 +52,88 @@
   height: 100vh;
 }
 
+.w0 {
+  width: 0%;
+}
+
+.w10 {
+  width: 10%;
+}
+
+.w20 {
+  width: 20%;
+}
+
+.w30 {
+  width: 30%;
+}
+
+.w40 {
+  width: 40%;
+}
+
+.w50 {
+  width: 50%;
+}
+
+.w60 {
+  width: 60%;
+}
+
+.w70 {
+  width: 70%;
+}
+
+.w80 {
+  width: 80%;
+}
+
+.w90 {
+  width: 90%;
+}
+
 .w100 {
   width: 100%;
+}
+
+.mw0 {
+  max-width: 0%;
+}
+
+.mw10 {
+  max-width: 10%;
+}
+
+.mw20 {
+  max-width: 20%;
+}
+
+.mw30 {
+  max-width: 30%;
+}
+
+.mw40 {
+  max-width: 40%;
+}
+
+.mw50 {
+  max-width: 50%;
+}
+
+.mw60 {
+  max-width: 60%;
+}
+
+.mw70 {
+  max-width: 70%;
+}
+
+.mw80 {
+  max-width: 80%;
+}
+
+.mw90 {
+  max-width: 90%;
 }
 
 .mw100 {
@@ -187,8 +307,13 @@ body {
   max-width: 500px;
 }
 
-#whocontainer img {
+#whocontainer div {
   border-radius: 10px;
+  overflow: hidden;
+}
+
+#whocontainer img {
+  flex: 1 0 auto;
 }
 
 /*# sourceMappingURL=home.css.map */

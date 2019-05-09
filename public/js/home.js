@@ -9,8 +9,12 @@ class WhoItem extends React.Component {
   render() {
     return React.createElement(
       "div",
-      { className: "flex-c-nw fjc-spacearound h100 mxauto", id: "whocontainer" },
-      React.createElement("img", { src: this.props.currentItem['loc'], className: "mxauto mw100 mh60" }),
+      { className: "flex-c-nw fjc-spacearound fai-center vh100 mxauto", id: "whocontainer" },
+      React.createElement(
+        "div",
+        { className: "h90 mw100 flex-r-nw fjc-center" },
+        React.createElement("img", { src: this.props.currentItem['loc'], className: "h100" })
+      ),
       React.createElement(
         "button",
         { className: "btn btn-large mxauto" },
