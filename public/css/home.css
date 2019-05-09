@@ -20,6 +20,23 @@
   max-width: 100%;
 }
 
+.block {
+  display: block;
+}
+
+.inblock {
+  display: inline-block;
+}
+
+.inline {
+  display: inline;
+}
+
+.mxauto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .flex {
   display: flex;
 }
@@ -120,6 +137,14 @@ body {
   height: auto;
   width: auto;
   border-radius: 5px;
+}
+
+#whocontainer {
+  max-width: 500px;
+}
+
+#whocontainer img {
+  border-radius: 10px;
 }
 
 /*# sourceMappingURL=home.css.map */

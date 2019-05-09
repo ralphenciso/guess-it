@@ -2,13 +2,29 @@ const root = document.getElementById('root');
 
 
 // Components
+class WhoItem extends React.Component {
+  constructor(props){
+    super(props);
+  }
+
+  render() {
+    return (
+      <div className="flex-c-nw fjc-spacearound h100 mxauto" id="whocontainer">
+        <img src={this.props.currentItem['loc']}/>
+        <button className="btn btn-large mxauto">Next</button>
+      </div>
+    );
+  }
+}
+
+
 class Category extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
       currentItem: 0
     }
-    // this.itemList = [];
+    this.list = [];
     this.handleClick = this.handleClick.bind(this);
   }
 
@@ -21,17 +37,12 @@ class Category extends React.Component {
   }
 
   renderItem(data) {
-    let url = (JSON.parse(data)[0]['loc']);
+    this.list = JSON.parse(data);
 
     ReactDOM.render(
-      
-      <img src={url} />,
+      <WhoItem currentItem={this.list[this.state.currentItem]}/>,
     root);
   }
-
-
-
- 
 
   render() {
     return (

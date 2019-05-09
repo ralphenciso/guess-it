@@ -21,6 +21,24 @@
 .mw100 {
   max-width: 100%;
 }
+
+.block {
+  display: block;
+}
+
+.inblock {
+  display: inline-block;
+}
+
+.inline {
+  display: inline;
+}
+
+.mxauto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 // helpers and layouts end
 
 // flex
