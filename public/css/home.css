@@ -20,6 +20,50 @@
   max-width: 100%;
 }
 
+.mh0 {
+  max-height: 0%;
+}
+
+.mh10 {
+  max-height: 10%;
+}
+
+.mh20 {
+  max-height: 20%;
+}
+
+.mh30 {
+  max-height: 30%;
+}
+
+.mh40 {
+  max-height: 40%;
+}
+
+.mh50 {
+  max-height: 50%;
+}
+
+.mh60 {
+  max-height: 60%;
+}
+
+.mh70 {
+  max-height: 70%;
+}
+
+.mh80 {
+  max-height: 80%;
+}
+
+.mh90 {
+  max-height: 90%;
+}
+
+.mh100 {
+  max-height: 100%;
+}
+
 .block {
   display: block;
 }

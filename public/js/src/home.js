@@ -10,7 +10,7 @@ class WhoItem extends React.Component {
   render() {
     return (
       <div className="flex-c-nw fjc-spacearound h100 mxauto" id="whocontainer">
-        <img src={this.props.currentItem['loc']}/>
+        <img src={this.props.currentItem['loc']} className="mxauto mw100 mh60"/>
         <button className="btn btn-large mxauto">Next</button>
       </div>
     );

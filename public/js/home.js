@@ -10,7 +10,7 @@ class WhoItem extends React.Component {
     return React.createElement(
       "div",
       { className: "flex-c-nw fjc-spacearound h100 mxauto", id: "whocontainer" },
-      React.createElement("img", { src: this.props.currentItem['loc'] }),
+      React.createElement("img", { src: this.props.currentItem['loc'], className: "mxauto mw100 mh60" }),
       React.createElement(
         "button",
         { className: "btn btn-large mxauto" },
