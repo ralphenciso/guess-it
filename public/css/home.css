@@ -316,4 +316,8 @@ body {
   flex: 1 0 auto;
 }
 
+.blur2 {
+  filter: blur(20px);
+}
+
 /*# sourceMappingURL=home.css.map */

@@ -34,3 +34,7 @@ body {
 #whocontainer img {
   flex: 1 0 auto;
 }
+
+.blur2 {
+  filter: blur(20px);
+}

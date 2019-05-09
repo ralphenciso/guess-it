@@ -6,7 +6,8 @@ class WhoItem extends React.Component {
   constructor(props){
     super(props);
     this.state = {
-      currentIndex: 0
+      currentIndex: 0,
+      blur: 2
     }
     this.list = this.props.list;
     this.listlength = this.list.length;
@@ -28,7 +29,7 @@ class WhoItem extends React.Component {
     return (
       <div className="flex-c-nw fjc-spacearound fai-center vh100 mxauto" id="whocontainer">
         <div className="h90 mw100 flex-r-nw fjc-center">
-            <img src={this.list[this.state.currentIndex]['loc']} className="h100" />
+            <img src={this.list[this.state.currentIndex]['loc']} className= {'h100 blur' + this.state.blur} />
         </div>
         <button className="btn btn-large mxauto" onClick={this.next}>Next</button>
       </div>
