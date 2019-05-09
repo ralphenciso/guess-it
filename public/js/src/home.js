@@ -5,15 +5,32 @@ const root = document.getElementById('root');
 class WhoItem extends React.Component {
   constructor(props){
     super(props);
+    this.state = {
+      currentIndex: 0
+    }
+    this.list = this.props.list;
+    this.listlength = this.list.length;
+    this.next = this.next.bind(this);
   }
+
+  next(){
+    let c = this.state.currentIndex + 1;
+    if(c >= this.listlength) return alert('end');
+
+    this.setState({
+      currentIndex: c
+    })
+  }
+
+
 
   render() {
     return (
       <div className="flex-c-nw fjc-spacearound fai-center vh100 mxauto" id="whocontainer">
         <div className="h90 mw100 flex-r-nw fjc-center">
-            <img src={this.props.currentItem['loc']} className="h100" />
+            <img src={this.list[this.state.currentIndex]['loc']} className="h100" />
         </div>
-        <button className="btn btn-large mxauto">Next</button>
+        <button className="btn btn-large mxauto" onClick={this.next}>Next</button>
       </div>
     );
   }
@@ -23,10 +40,6 @@ class WhoItem extends React.Component {
 class Category extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {
-      currentItem: 0
-    }
-    this.list = [];
     this.handleClick = this.handleClick.bind(this);
   }
 
@@ -34,16 +47,10 @@ class Category extends React.Component {
     let namelist = 
     fetch('../getlist?length=10')
       .then(response => response.text())
-      .then(data => this.renderItem(data))
-      .catch(err => console.error(err));
-  }
-
-  renderItem(data) {
-    this.list = JSON.parse(data);
-
-    ReactDOM.render(
-      <WhoItem currentItem={this.list[this.state.currentItem]}/>,
-    root);
+      .then(data => {
+        renderList(JSON.parse(data));
+      })
+      .catch(err => console.error(err));    
   }
 
   render() {
@@ -54,6 +61,8 @@ class Category extends React.Component {
     );
   }
 }
+
+
 
 function List(props) {
   return (
@@ -71,6 +80,12 @@ function List(props) {
 ReactDOM.render(<List />, root);
 
 
+
+function renderList(list) {
+  ReactDOM.render(
+    <WhoItem list={list}/>,
+  root);
+}
 
 
 
