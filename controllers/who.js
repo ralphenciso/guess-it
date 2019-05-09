@@ -16,7 +16,7 @@ function mapfiles(file, i) {
       .split('_')
       .map(x => x.charAt(0).toUpperCase() + x.slice(1))
       .join(' '),
-    loc: path.resolve(dir + file),
+    loc: './images/who/' + file,
     id: i
   };
 };
