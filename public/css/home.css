@@ -286,6 +286,10 @@
   align-items: space-around;
 }
 
+.dnone {
+  display: none;
+}
+
 body {
   font-family: "Raleway", Verdana, Geneva, Tahoma, sans-serif;
   background: linear-gradient(to right, #002fe0, #2143d6, #0052d4);
@@ -316,8 +320,20 @@ body {
   flex: 1 0 auto;
 }
 
+.blur3 {
+  filter: blur(30px);
+}
+
 .blur2 {
   filter: blur(20px);
+}
+
+.blur1 {
+  filter: blur(10px);
+}
+
+.blurtrans {
+  transition: filter 0.3s linear;
 }
 
 /*# sourceMappingURL=home.css.map */

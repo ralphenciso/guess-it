@@ -33,8 +33,21 @@ body {
 
 #whocontainer img {
   flex: 1 0 auto;
+ 
+}
+
+.blur3 {
+  filter: blur(30px);
 }
 
 .blur2 {
   filter: blur(20px);
+}
+
+.blur1 {
+  filter: blur(10px);
+}
+
+.blurtrans {
+  transition: filter .3s linear;
 }

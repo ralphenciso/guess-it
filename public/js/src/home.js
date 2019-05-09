@@ -7,10 +7,13 @@ class WhoItem extends React.Component {
     super(props);
     this.state = {
       currentIndex: 0,
-      blur: 2
+      blur: 3,
+      next: false
     }
     this.list = this.props.list;
     this.listlength = this.list.length;
+    this.trans = ' .blurtrans';
+    this.clue = this.clue.bind(this);
     this.next = this.next.bind(this);
   }
 
@@ -18,8 +21,27 @@ class WhoItem extends React.Component {
     let c = this.state.currentIndex + 1;
     if(c >= this.listlength) return alert('end');
 
+    this.trans = '';
+
     this.setState({
-      currentIndex: c
+      currentIndex: c,
+      blur: 3,
+      next: false
+    })
+  }
+
+  clue (){
+    let nblur = this.state.blur - 1;
+    this.trans = ' .blurtrans';
+  
+    if(nblur === 0){
+      this.setState({
+        next: true
+      })
+    }
+
+    this.setState({
+      blur: nblur
     })
   }
 
@@ -29,9 +51,10 @@ class WhoItem extends React.Component {
     return (
       <div className="flex-c-nw fjc-spacearound fai-center vh100 mxauto" id="whocontainer">
         <div className="h90 mw100 flex-r-nw fjc-center">
-            <img src={this.list[this.state.currentIndex]['loc']} className= {'h100 blur' + this.state.blur} />
+            <img src={this.list[this.state.currentIndex]['loc']} className= {'h100 blur' + this.state.blur + this.trans} />
         </div>
-        <button className="btn btn-large mxauto" onClick={this.next}>Next</button>
+        <button className={'btn btn-large mxauto ' + (!this.state.next || 'dnone')} onClick={this.clue}>Reduce Blur</button>
+        <button className={'btn btn-large mxauto ' + (this.state.next || 'dnone')} onClick={this.next}>Next</button>
       </div>
     );
   }
