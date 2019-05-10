@@ -20,6 +20,7 @@
     "serve-static": "^1.13.2"
   },
   "devDependencies": {
+    "@babel/preset-env": "^7.4.4",
     "babel-cli": "^6.26.0",
     "babel-preset-react-app": "^3.1.2"
   }

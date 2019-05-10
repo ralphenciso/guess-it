@@ -14,9 +14,6 @@ app.listen(port, () => {
 
 app.get('/', (req, res) => res.redirect('home.html'));
 
-// app.get('/getlist', (req,res) => {
-//   res.send('test')
-// })
 
 app.get('/getlist', (req,res) => {
   let length = req.length || 10;
